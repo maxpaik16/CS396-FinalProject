@@ -10,7 +10,7 @@ import constants as c
 
 class SOLUTION:
 
-    def __init__(self, ID):
+    def __init__(self, ID, max_size):
         self.myID = ID
 
         # number of legs on side of platform
@@ -32,7 +32,9 @@ class SOLUTION:
             if np.random.random() > .2:
                 self.links_with_sensors.append(i)
 
-        self.link_sizes = [[np.random.random(), np.random.random(), np.random.random()] for i in range(self.num_joints + 1)]
+        self.max_size = max_size
+
+        self.link_sizes = [[self.max_size * np.random.random(), self.max_size * np.random.random(), self.max_size * np.random.random()] for i in range(self.num_joints + 1)]
         self.link_posns = []
         self.directions = []
         self.joint_posns = []
@@ -286,7 +288,7 @@ class SOLUTION:
 
                     self.weights[row, column] = 2 * np.random.random() - 1
                     return
-                newsize = [np.random.random(), np.random.random(), np.random.random()]
+                newsize = [self.max_size * np.random.random(), self.max_size * np.random.random(), self.max_size * np.random.random()]
                 direction = np.random.randint(0, 8)
                 lastsize = self.link_sizes[-1]
                 self.link_sizes.append(newsize)

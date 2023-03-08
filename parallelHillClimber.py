@@ -7,13 +7,13 @@ import os
 
 class PARALLEL_HILL_CLIMBER:
 
-    def __init__(self):
+    def __init__(self, max_size):
         self.parents = {}
         self.nextAvailableID = 0
         self.best_fitnesses = []
 
         for n in range(c.populationSize):
-            self.parents[n] = SOLUTION(self.nextAvailableID)
+            self.parents[n] = SOLUTION(self.nextAvailableID, max_size)
             self.nextAvailableID += 1
 
         os.system('rm brain*.nndf')
