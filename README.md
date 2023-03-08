@@ -79,12 +79,12 @@ My hypothesis is that
 BRIEF BLURB
 
 
-|Group|A|B|C|
----|---|---|---|
-|Maximum Link Size|X|X|X|
-|Maximum Fitness|X|X|X|
-|Average Fitness|X|X|X|
-|Uncertainty|X|X|X|
+|| Group A           | Group B | Group C |
+-------------------|---------|---------|---|
+| Maximum Link Size | X       | X       |X|
+| Maximum Fitness   | X       | X       |X|
+| Average Fitness   | X       | X       |X|
+| Uncertainty       | X       | X       |X|
 
 TABLE OF RESULTS
 PLOT HERE OF FITNESS CURVES
