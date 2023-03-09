@@ -14,9 +14,7 @@ Over time, random mutations occur and more fit robots are selected for.
 Robots are generated randomly and evolution occurs both through modification of the body plan and the weights within the robot's brain.
 See below sections for more details on brain/body generation, mutation, and selection.
 
-For a brief ten second teaser, visit the following link: 
-
-LINK TO TEASER
+For a brief ten second teaser, visit the following [link](https://youtu.be/kYGm00_MJoo) 
 
 # Brain and Body Generation
 
@@ -126,13 +124,9 @@ Note that each group had multiple trials, each with different random seeds.
 
 ![Plot](best_fitnesses_fp.jpg)
 
-The following video gives a brief overview of the experimental setup, hypothesis, and results.
+The following video gives a brief overview of the experimental setup, hypothesis, and results: [link](https://youtu.be/zegg_ozNpFY)
 
-LINK TO VIDEO 
-
-I have also included some B-roll to showcase other robots and behaviors that did not make it into the final video:
-
-LINK TO BROLL
+I have also included some B-roll to showcase other robots and behaviors that did not make it into the final video at the following [link](https://youtu.be/A1Xx5S8H3nM)
 
 # Future Work
 
