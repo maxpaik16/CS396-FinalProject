@@ -81,19 +81,18 @@ The defining characteristic of these three groups is the maximum size of each li
 Group A, B, and C have maximum link volumes of .5 code units cubed, 1.0 code units cubed, and 2.0 code units cubed. 
 Other than that, the algorithm for body and brain generation and mutation is identical across groups. 
 
-I run X trials for each group, each with a unique random seed to explore diff
-
-DIAGRAM OF IDENTICAL ROBOTS OF THREE GROUPS
+I ran 5 trials for each group, each with a unique random seed to explore different potential bodies and mutations.
+The population size was 10 and each population was given 350 generations to evolve, totaling over 50,000 simulations.
+At the end of an evolutionary branch, I recorded the best fitness achieved by a given population, which I analyze below.
 
 # Hypothesis
 
 My hypothesis is that smaller bodies will perform better (move further) than larger bodies. 
-There are a few reasons I believe this to be the case. 
+There are a couple principal reasons I believe this to be the case. 
 First, larger robots may have more difficulty supporting their own weight, leading to issues balancing during locomotion. 
-Second
-In addition, smaller robots are lighter robots, which should help them move more quickly.
+Second, smaller robots are lighter robots, which should help them move more quickly with motions at a higher frequency.
 Though larger robots do have the advantage of longer limbs that may be able to cover a greater distance in a given motion, 
-I don't think that is enough to offset the above advantages of smaller robots.
+I don't think that is enough to offset the above advantages of smaller robots, especially after many generations of evolution.
 
 # Results
 
@@ -124,6 +123,21 @@ LINK TO BROLL
 # Future Work
 
 There are many potential experiments that could improve or iterate on this one. 
+
+First, given improved computational resources, larger populations could be evolved for more generations, which
+could give a better understanding of what behaviors may be possible for effective locomotion.
+This would also provide more meaningful statistics and lower uncertainties. 
+Additionally, with more computational resources and time, it would be possible to run more than three groups, 
+exploring the parameter space of maximum link size more fully. It would be particularly interesting to see XXX.
+
+It may also be interesting to explore how different sized bodies behave in different environments. 
+For example, a future experiment could repeat this study but with different gravitational strength, potentially 
+benefiting different robot body plans. 
+
+Other potential spaces for investigation include different behaviors (ie jumping instead of locomotion),
+different body plans (ie spherical links or ball-in-socket joints),
+and different brain structures (ie more hidden layers).
+Experiments that vary any of these parameters may help develop a more full understanding of life as it could have been.
 
 # Credit
 
