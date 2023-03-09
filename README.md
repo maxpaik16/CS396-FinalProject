@@ -100,17 +100,17 @@ BRIEF BLURB
 
 The following table concisely describes the results of my experiment. 
 
-|| Group A           | Group B | Group C  |
--------------------|---------|----------|-----|
-| Maximum Link Size | .5      | 1.0      | 2.0 |  
-| Maximum Fitness   | X       | X        | X   |
-| Average Fitness   | X       | X        | X   |
-| Uncertainty       | X       | X        | X   |
+|| Group A           | Group B | Group C |       |
+|-------------------|---------|---------|-------|
+| Maximum Link Size | .5      | 1.0     | 2.0   |
+| Maximum Fitness   | 63.27   | 54.72   | 71.98 |
+| Average Fitness   | 40.90   | 39.78   | 56.38     |
+| Std Dev.          | 16.45   | 12.32   | 13.50     |
 
 The following plot showcases the best fitness of each experimental group at each generation. 
 Note that each group had multiple trials, each with different random seeds.
 
-PLOT HERE OF FITNESS CURVES
+![Plot](best_fitnesses_fp.jpg)
 
 The following video gives a brief overview of the experimental setup, hypothesis, and results.
 
