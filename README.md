@@ -73,7 +73,7 @@ See the following diagram for a representation of this process:
 
 ![Plot](selection.jpeg)
 
-# Experimental Setup
+# Experimental Setup and Methods
 
 I consider three different groups of robots: Group A, Group B, and Group C. 
 Each group consists of robots generated according to the above algorithm. 
@@ -96,7 +96,21 @@ I don't think that is enough to offset the above advantages of smaller robots, e
 
 # Results
 
-BRIEF BLURB
+My results are difficult to interpret. 
+Ultimately, limited by computational resources, I only was able to run so many trials.
+This meant that my uncertainties were often too large to meaningfully make strong claims about the data.
+That being said, it does appear that my hypothesis may be incorrect.
+Group C, which had the largest links, had the highest maximum and average fitness.
+Upon watching some of the evolved robots, bigger "limbs" may have helped take longer strides and cover more ground.
+In addition, some of the bigger robots used their height as leverage, which the smaller populations were unable to do.
+Though more trials are needed, this suggests that there may be some advantage to having bigger body parts when it comes to locomotion.
+
+At the same time, the uncertainty intervals of all three trials overlapped with each other. 
+This seems to suggest that even with different sized body parts, different robots are able to evolve for locomotion
+with similar levels of effectiveness. 
+Ultimately, a more complete sweep of the parameter space with more trials and more groups (ie larger variation in link size)
+would be needed to understand the effect of body part size on ability to move in our simulated environment.
+
 
 The following table concisely describes the results of my experiment. 
 
@@ -128,7 +142,8 @@ First, given improved computational resources, larger populations could be evolv
 could give a better understanding of what behaviors may be possible for effective locomotion.
 This would also provide more meaningful statistics and lower uncertainties. 
 Additionally, with more computational resources and time, it would be possible to run more than three groups, 
-exploring the parameter space of maximum link size more fully. It would be particularly interesting to see XXX.
+exploring the parameter space of maximum link size more fully. It would be particularly interesting to see 
+if even larger robots continue having better fitnesses.
 
 It may also be interesting to explore how different sized bodies behave in different environments. 
 For example, a future experiment could repeat this study but with different gravitational strength, potentially 
