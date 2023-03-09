@@ -100,7 +100,7 @@ BRIEF BLURB
 
 The following table concisely describes the results of my experiment. 
 
-|| Group A           | Group B | Group C |       |
+|| Group A           | Group B | Group C |       
 |-------------------|---------|---------|-------|
 | Maximum Link Size | .5      | 1.0     | 2.0   |
 | Maximum Fitness   | 63.27   | 54.72   | 71.98 |
